@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent  {
-  title = 'recipe-book';
+  loadedFeauture = 'recipe'
+  
   navbarCollapsed = true;
+
+  onNavigate(feauture: string){
+
+    this.loadedFeauture = feauture;
+  }
 }
