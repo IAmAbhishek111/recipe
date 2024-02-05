@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent  {
-  loadedFeauture = 'recipe'
+  loadedFeauture = 'recipe';
   
   navbarCollapsed = true;
 

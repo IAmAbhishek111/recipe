@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse" style="border-radius: 0;">
+<nav class="navbar navbar-inverse" style="border-radius: 0">
   <div class="container-fluid">
     <div class="navbar-header">
       <a href="#" class="navbar-brand">Recipe Book</a>
@@ -6,8 +6,10 @@
 
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#" (click)="onSelect('recipe' )">recipes</a></li>
-        <li><a href="#" (click)="onSelect('shopping-List')">shopping list</a></li>
+        <li><a href="#" (click)="onSelect('recipe')">recipes</a></li>
+        <li>
+          <a href="#" (click)="onSelect('shopping-List')">shopping list</a>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
