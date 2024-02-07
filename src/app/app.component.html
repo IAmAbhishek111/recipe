@@ -4,7 +4,9 @@
   <div class="row">
     <div class="col-md-12">
       <app-recipes *ngIf="loadedFeauture === 'recipe'"></app-recipes>
-      <app-shopping-list *ngIf="loadedFeauture !== 'recipe'"></app-shopping-list>
+      <app-shopping-list
+        *ngIf="loadedFeauture !== 'recipe'"
+      ></app-shopping-list>
     </div>
   </div>
 </div>
