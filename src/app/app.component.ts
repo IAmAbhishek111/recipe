@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
+  [x: string]: any;
   loadedFeauture = 'recipe';
 
-  navbarCollapsed = true;
+  // navbarCollapsed = true;
 
   onNavigate(feauture: string) {
     this.loadedFeauture = feauture;
