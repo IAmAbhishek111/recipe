@@ -11,7 +11,5 @@ export class AppComponent {
 
   // navbarCollapsed = true;
 
-  onNavigate(feauture: string) {
-    this.loadedFeauture = feauture;
-  }
+  
 }
