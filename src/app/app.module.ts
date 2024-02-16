@@ -18,7 +18,8 @@ import { RecipesStartComponent } from './recipes/recipes-start/recipes-start.com
 import { RouterModule } from '@angular/router';
 import { RecipesEditComponent } from './recipes/recipes-edit/recipes-edit.component';
 import { RecipesService } from './recipes/recipes.service';
-// import { RecipesItemComponent } from './recipes-list/recipes-item/recipes-item.component';
+
+import { AuthComponent } from './Auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { RecipesService } from './recipes/recipes.service';
     DropDownDirective,
     RecipesStartComponent,
     RecipesEditComponent,
+    AuthComponent
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule,AppRoutingModule,
   RouterModule , ReactiveFormsModule],
