@@ -1,91 +1,92 @@
-/* auth.component.css */
 
-/* Overall styling */
-body {
-    background-color: #f4f4f4;
-  }
-  
-  .row {
-    margin-top: 50px;
-  }
-  
-  .col-xs-12 {
-    background-color: #a1a7b4;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-  }
-  
-  /* Error message styling */
-  .alert-danger {
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-    color: #721c24;
-  }
-  
-  
-  /* Form styling */
-  form {
-    margin-top: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Button styling */
-  .btn {
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    color: #fff;
-    border: 1px solid #007bff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
-  .btn2 {
-    background-color: #28a745;
-    border: 1px solid #28a745;
-  }
-  
-  .btn2:hover {
-    background-color: #218838;
-  }
-  
-  /* Form transition */
-   .ng-tns-c60-3 {
-    transition: opacity 0.5s ease;
-  }
+.row  {
+  margin-top: 50px;
 
+  
+}
 
+.col-xs-12 {
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
 
-  /* auth.component.css */
+/* Error message styling */
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+form {
+  
+  animation: fadeIn 0.8s ease-in-out; /* Fade-in animation */
+}
+form {
+  margin-top: 20px;
+}
 
-/* ... (your existing styles) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn2 {
+  background-color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.btn2:hover {
+  background-color: #218838;
+}
+
+/* Form transition */
+.ng-tns-c229-1 {
+  transition: opacity 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
 
 /* Media Query for Medium-sized devices */
 @media (max-width: 768px) {
@@ -98,7 +99,7 @@ body {
       margin: 48px;
     }
   
-    /* Add any additional styles or adjustments for medium-sized devices */
+  
   }
   
   /* Media Query for Small-sized devices */
@@ -113,9 +114,6 @@ body {
     }
   
 
-    /* auth.component.css */
-
-/* ... (your existing styles) */
 
 /* Media Query for Small-sized devices */
 @media (max-width: 350px) {
@@ -130,17 +128,15 @@ body {
   
     .btn {
         padding: 5px 10px;
-        font-size: 12px; /* Adjust font size if needed */
+        font-size: 12px; 
       }
     
       .btn2{
         padding: 5px 10px;
-        font-size: 12px; /* Adjust font size if needed */ 
+        font-size: 12px; 
       }
-    /* Add any additional styles or adjustments for devices less than 300px wide */
   }
   
-    /* Add any additional styles or adjustments for small-sized devices */
 @media (max-width: 251px) {
     .row {
       margin-top: 10px;
@@ -160,10 +156,8 @@ body {
         padding: 2px 7px;
         font-size: 8px; /* Adjust font size if needed */
       }
-    /* Add any additional styles or adjustments for devices less than 300px wide */
   }
-  
-    /* Add any additional styles or adjustments for small-sized devices */
+
   }
   
    
