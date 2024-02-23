@@ -125,7 +125,7 @@ export class AuthService {
   private handleError(errorRes: HttpErrorResponse) {
     let errorMessage = 'An unknown error occurred!';
     if (!errorRes.error || !errorRes.error.error) {
-      return throwError(errorMessage);
+      return throwError(()=>errorMessage);
     }
     switch (errorRes.error.error.message) {
       case 'EMAIL_EXISTS':
@@ -139,6 +139,6 @@ export class AuthService {
         break;
     }
     // tslint:disable-next-line:align
-    return throwError(errorMessage);
+    return throwError(()=>errorMessage);
   }
 }
